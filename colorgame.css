@@ -1,0 +1,75 @@
+/*----------------------- Global CSS -------------------------*/
+body
+{
+    text-align: center;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+
+}
+.container-fluid
+{
+    margin: 0;
+    padding: 0;
+}
+button
+{
+    margin: 0 10px;
+    border: none;
+    background: none;
+    height: 100%;
+    color: steelblue;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+/*----------------------- Header Section CSS -------------------------*/
+#header-section
+{
+    background-color: steelblue;
+    padding: 10px 0;
+}
+#selected-color
+{
+    font-size: 3.5rem;
+}
+/*----------------------- Button Section CSS -------------------------*/
+.button-section
+{   
+    background-color: white;    
+}
+button:hover
+{
+    color: white;
+    background: steelblue;
+}
+.selected
+{
+    background-color: steelblue;
+    color: white;
+}
+#message
+{
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: black;
+}
+/*----------------------- Container Section CSS -------------------------*/
+.container
+{
+    max-width: 600px;
+    padding-top: 20px;
+   
+}
+.squares
+{
+    width: 30%;
+    float: left;
+    height: 170px;
+    margin: 1.5%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+
